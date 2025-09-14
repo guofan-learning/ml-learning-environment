@@ -1,0 +1,7 @@
+{
+  "LabApp": {
+    "tornado_settings": {
+      "static_url_prefix": "/static/"
+    }
+  }
+}
