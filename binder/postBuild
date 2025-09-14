@@ -1,3 +1,7 @@
 #!/bin/bash
-# 最小化配置，避免扩展冲突
+# 简化版本：只安装和启用必要的扩展
+pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension --user
+
+# 如果上面命令仍然失败，尝试替代方案
+# jupyter serverextension enable --py widgetsnbextension
