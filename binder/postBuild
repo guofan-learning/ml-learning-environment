@@ -1,7 +1,3 @@
 #!/bin/bash
-# 简化版本：只安装和启用必要的扩展
-pip install ipywidgets
+# 最小化配置，避免扩展冲突
 jupyter nbextension enable --py widgetsnbextension --user
-
-# 安装其他常用但兼容性更好的扩展
-pip install jupyterlab
