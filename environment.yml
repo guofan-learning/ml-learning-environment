@@ -1,0 +1,23 @@
+name: ml-learning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - seaborn
+  - jupyter
+  - notebook
+  - ipywidgets
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - tensorflow
+    - keras
+    - plotly
+    - xgboost
+    - lightgbm
