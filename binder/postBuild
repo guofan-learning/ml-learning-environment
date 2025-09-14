@@ -1,11 +1,7 @@
 #!/bin/bash
-# 安装必要的 Jupyter 扩展支持
-pip install --upgrade jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
-
-# 启用 widgets 扩展
+# 简化版本：只安装和启用必要的扩展
+pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension --user
 
-# 安装和启用其他常用扩展
-jupyter nbextension enable codefolding/main --user
-jupyter nbextension enable execute_time/ExecuteTime --user
+# 安装其他常用但兼容性更好的扩展
+pip install jupyterlab
